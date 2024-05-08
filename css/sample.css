@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+header{
+    background-color: #fff;
+    text-align: center;
+}
+
+footer{
+    background-color: #fff;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+
+.description{text-align: center; font-size: 24px; margin-top: 40px;}
+
+ul{
+    padding: 24px 0 50px 0;
+    
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    list-style-type:none;
+    text-align: center;
+    font-size: 120px;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+}
+
+#pc_txt{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+}
+#pc_hands{font-size: 64px;}
+#judgment{
+    margin: 24px auto;
+    text-align: center;
+}
+
+#result{
+    margin: 80px auto; 
+    background-color: #0066CC; 
+    color: white; 
+    width: 80%; 
+    padding: 40px; 
+    border-radius: 16px;
+    display: none;
+}
